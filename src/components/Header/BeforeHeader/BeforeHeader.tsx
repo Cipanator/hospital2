@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { Modal } from '../../Modal/Modal';
 
 export const BeforeHeader = () => {
-    const [modalActive, setModalActive] = useState(false)    
+    const [modalActive, setModalActive] = useState(false)
     return (
         <Container>
             <div className={styles.wrapper}>
@@ -14,8 +14,33 @@ export const BeforeHeader = () => {
                 <div className={styles.number}><span className={styles.icon}><FaPhoneAlt /></span><a className={styles.phone} href='tel:+79218491015'>+7(921)849-10-15</a></div>
                 <div className={styles.getServiceBtn}><a className={styles.btn} onClick={() => setModalActive(true)}>Запись на прием</a></div>
                 <Modal active={modalActive} setActive={setModalActive}>
-                    ХУЕСОСЫ
-                    </Modal>
+                    <div className={styles.wrapper}>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                        <div>
+                            <label>ФИО полностью</label>
+                            <input></input>
+                        </div>
+                    </div>
+                </Modal>
             </div>
         </Container>
     )

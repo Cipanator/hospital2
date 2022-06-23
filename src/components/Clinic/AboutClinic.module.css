@@ -22,3 +22,13 @@ li {
 h1 {
     margin-top: 40px;
 }
+.image2{
+    background-image: url(../../../public/image/4block/3.PNG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    float:left;
+    margin-right: 20px;
+}

@@ -16,13 +16,13 @@ export const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <NavDropdown title="О больнице" id="basic-nav-dropdown" className={styles.dropdown}>
-                                <NavDropdown.Item href="#action/3.1">Сведения о медицинской организации</NavDropdown.Item>
+                                <NavDropdown.Item href="/about_clinic">Сведения о медицинской организации</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.2">Режим и график работы</NavDropdown.Item>
+                                <NavDropdown.Item href="/working_hours">Режим и график работы</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">Лицензии</NavDropdown.Item>
+                                <NavDropdown.Item href="/licenses">Лицензии</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Отзывы</NavDropdown.Item>
+                                <NavDropdown.Item href="/reviews">Отзывы</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Направления" id="basic-nav-dropdown" className={styles.dropdown}>
                                 <NavDropdown.Item href="#action/4.1">Терапия</NavDropdown.Item>
