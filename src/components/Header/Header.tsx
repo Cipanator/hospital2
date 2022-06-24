@@ -25,21 +25,21 @@ export const Header = () => {
                                 <NavDropdown.Item href="/reviews">Отзывы</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Направления" id="basic-nav-dropdown" className={styles.dropdown}>
-                                <NavDropdown.Item href="#action/4.1">Терапия</NavDropdown.Item>
+                                <NavDropdown.Item href="/therapy">Терапия</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.2">Гинекология</NavDropdown.Item>
+                                <NavDropdown.Item href="/gynecology">Гинекология</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.3">Хирургия</NavDropdown.Item>
+                                <NavDropdown.Item href="/surgery">Хирургия</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.4">Урология</NavDropdown.Item>
+                                <NavDropdown.Item href="/urology">Урология</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.5">Неврология</NavDropdown.Item>
+                                <NavDropdown.Item href="/neurology">Неврология</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.6">Оториноларингология</NavDropdown.Item>
+                                <NavDropdown.Item href="/otorhinolaryngology">Оториноларингология</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.7">Офтальмоголия</NavDropdown.Item>
+                                <NavDropdown.Item href="/ophthalmology">Офтальмоголия</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/4.8">Стоматология</NavDropdown.Item>
+                                <NavDropdown.Item href="/dentistry">Стоматология</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Специалисты" id="basic-nav-dropdown" className={styles.dropdown}>
                                 <NavDropdown.Item href="#action/5.1">Терапевты</NavDropdown.Item>
