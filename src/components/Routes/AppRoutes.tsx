@@ -14,6 +14,14 @@ import { Otorhinolaryngology } from "../Directions/Otorhinolaryngology";
 import { Ophthalmology } from "../Directions/Ophthalmology";
 import { Dentistry } from "../Directions/Dentistry";
 import { Therapist } from "../Specialists/Therapist";
+import { Dentist } from "../Specialists/Dentist";
+import { Surgeon } from "../Specialists/Surgeon";
+import { Gynecologists } from "../Specialists/Gynecologists";
+import { Ophthalmologist } from "../Specialists/Ophthalmologist";
+import { Otolaryngologist } from "../Specialists/Otolaryngologist";
+import { Urologist } from "../Specialists/Urologist";
+import { Neurologist } from "../Specialists/Neurologist";
+import { Contacts } from "../Contacts/Contacts";
 export const AppRoutes = () => {
     return (
         <Routes>
@@ -32,6 +40,15 @@ export const AppRoutes = () => {
             <Route path="/ophthalmology" element={<Ophthalmology/>} />
             <Route path="/dentistry" element={<Dentistry/>} />
             <Route path="/therapist" element={<Therapist/>} />
+            <Route path="/dentist" element={<Dentist/>} />
+            <Route path="/gynecologists" element={<Gynecologists/>} />
+            <Route path="/ophthalmologist" element={<Ophthalmologist/>} />
+            <Route path="/otolaryngologist" element={<Otolaryngologist/>} />
+            <Route path="/surgeon" element={<Surgeon/>} />
+            <Route path="/urologist" element={<Urologist/>} />
+            <Route path="/neurologist" element={<Neurologist/>} />
+            <Route path="/contacts" element={<Contacts/>} />
+
         </Routes>
     )
 }
