@@ -11,6 +11,7 @@ import { Gynecology } from "../Directions/Gynecology";
 import { Surgery } from "../Directions/Surgery";
 import { Neurology } from "../Directions/Neurology";
 import { Otorhinolaryngology } from "../Directions/Otorhinolaryngology";
+import { Ophthalmology } from "../Directions/Ophthalmology";
 
 export const AppRoutes = () => {
     return (
@@ -27,6 +28,7 @@ export const AppRoutes = () => {
             <Route path="/Surgery" element={<Surgery/>} />
             <Route path="/Neurology" element={<Neurology/>} />
             <Route path="/Otorhinolaryngology" element={<Otorhinolaryngology/>} />
+            <Route path="/Ophthalmology" element={<Ophthalmology/>} />
         </Routes>
     )
 }
