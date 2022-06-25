@@ -7,11 +7,11 @@ export const Reviews = () => {
         <Container>
             <h1>Отзывы пациентов</h1>
             <div className={styles.wrapper}>
-                <p className={styles.content}>
+                <div className={styles.content}>
                     <ul>
                         <p className={styles.text}>Мы стремимся оказывать качественные услуги с высоким уровнем сервиса. Мы благодарны нашим пациентам за оказанное доверие и положительные отзывы о совместной работе. </p>
                     </ul>
-                </p>
+                </div>
             </div>
         </Container>
 

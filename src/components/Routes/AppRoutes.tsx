@@ -22,6 +22,12 @@ import { Otolaryngologist } from "../Specialists/Otolaryngologist";
 import { Urologist } from "../Specialists/Urologist";
 import { Neurologist } from "../Specialists/Neurologist";
 import { Contacts } from "../Contacts/Contacts";
+import { Сonsultations } from "../PaidServices/Consultations";
+import { RadioDiagnosis } from "../PaidServices/RadioDiagnosis";
+import { EndoscopicDiagnostics } from "../PaidServices/EndoscopicDiagnostics"; 
+import { UltrasoundDiagnostics } from "../PaidServices/UltrasoundDiagnostics";
+import { MolecularGeneticStudy } from "../PaidServices/MolecularGeneticStudy";
+
 export const AppRoutes = () => {
     return (
         <Routes>
@@ -48,6 +54,11 @@ export const AppRoutes = () => {
             <Route path="/urologist" element={<Urologist/>} />
             <Route path="/neurologist" element={<Neurologist/>} />
             <Route path="/contacts" element={<Contacts/>} />
+            <Route path="/consultations" element={<Сonsultations/>} />
+            <Route path="/radio_diagnosis" element={<RadioDiagnosis/>} />
+            <Route path="/endoscopic_diagnostics" element={<EndoscopicDiagnostics/>} />
+            <Route path="/ultrasound_diagnostics" element={<UltrasoundDiagnostics/>} />
+            <Route path="/molecular_genetic_study" element={<MolecularGeneticStudy/>} />
 
         </Routes>
     )

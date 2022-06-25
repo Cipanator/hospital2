@@ -59,15 +59,15 @@ export const Header = () => {
                                 <NavDropdown.Item href="/dentist">Стоматологи</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Платные услуги" id="basic-nav-dropdown" className={styles.dropdown}>
-                                <NavDropdown.Item href="#action/6.1">Консультации</NavDropdown.Item>
+                                <NavDropdown.Item href="/consultations">Консультации</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/6.2">Лучевая диагностика</NavDropdown.Item>
+                                <NavDropdown.Item href="/radio_diagnosis">Лучевая диагностика</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/6.3">Эндоскопическая диагностика</NavDropdown.Item>
+                                <NavDropdown.Item href="/endoscopic_diagnostics">Эндоскопическая диагностика</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/6.4">Ультразвуковая диагностика</NavDropdown.Item>
+                                <NavDropdown.Item href="/ultrasound_diagnostics">Ультразвуковая диагностика</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/6.5">Молекулярная-генитическое исследование</NavDropdown.Item>
+                                <NavDropdown.Item href="/molecular_genetic_study">Молекулярная-генитическое исследование</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/contacts">Контакты</Nav.Link>
                         </Nav>
