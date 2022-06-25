@@ -42,7 +42,7 @@ export const Header = () => {
                                 <NavDropdown.Item href="/dentistry">Стоматология</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Специалисты" id="basic-nav-dropdown" className={styles.dropdown}>
-                                <NavDropdown.Item href="#action/5.1">Терапевты</NavDropdown.Item>
+                                <NavDropdown.Item href="/therapist">Терапевты</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/5.2">Гинекологи</NavDropdown.Item>
                                 <NavDropdown.Divider />

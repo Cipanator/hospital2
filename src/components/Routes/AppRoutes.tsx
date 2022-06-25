@@ -12,7 +12,8 @@ import { Surgery } from "../Directions/Surgery";
 import { Neurology } from "../Directions/Neurology";
 import { Otorhinolaryngology } from "../Directions/Otorhinolaryngology";
 import { Ophthalmology } from "../Directions/Ophthalmology";
-
+import { Dentistry } from "../Directions/Dentistry";
+import { Therapist } from "../Specialists/Therapist";
 export const AppRoutes = () => {
     return (
         <Routes>
@@ -20,15 +21,17 @@ export const AppRoutes = () => {
             <Route path="*" element={<NotFound />} />
             <Route path="/about_clinic" element={<AboutClinic/>} />
             <Route path="/working_Hours" element={<WorkingHours/>} />
-            <Route path="/Licenses" element={<Licenses/>} />
-            <Route path="/Reviews" element={<Reviews/>} />
-            <Route path="/Therapy" element={<Therapy/>} />
-            <Route path="/Urology" element={<Urology/>} />
-            <Route path="/Gynecology" element={<Gynecology/>} />
-            <Route path="/Surgery" element={<Surgery/>} />
-            <Route path="/Neurology" element={<Neurology/>} />
-            <Route path="/Otorhinolaryngology" element={<Otorhinolaryngology/>} />
-            <Route path="/Ophthalmology" element={<Ophthalmology/>} />
+            <Route path="/licenses" element={<Licenses/>} />
+            <Route path="/reviews" element={<Reviews/>} />
+            <Route path="/therapy" element={<Therapy/>} />
+            <Route path="/urology" element={<Urology/>} />
+            <Route path="/gynecology" element={<Gynecology/>} />
+            <Route path="/surgery" element={<Surgery/>} />
+            <Route path="/neurology" element={<Neurology/>} />
+            <Route path="/otorhinolaryngology" element={<Otorhinolaryngology/>} />
+            <Route path="/ophthalmology" element={<Ophthalmology/>} />
+            <Route path="/dentistry" element={<Dentistry/>} />
+            <Route path="/therapist" element={<Therapist/>} />
         </Routes>
     )
 }
