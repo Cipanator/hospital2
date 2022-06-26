@@ -30,8 +30,10 @@
     {name: "Стоматология", link: "/dentistry"},
     {name: "Стоматолог", link: "/dentist"},
     {name: "Стоматологи", link: "/dentist"},
-
-    {name: "Гинекология", link: "/gynecology"},
-
-
+    {name: "Контакты", link: "/contacts"},
+    {name: "Консультация", link: "/consultations"},
+    {name: "Лучевая диагностика", link: "radio_diagnosis"},
+    {name: "Эндоскопическая диагностика", link: "/endoscopic_diagnostics"},
+    {name: "Ультразвуковая диагностика", link: "/ultrasound_diagnostics"},
+    {name: "Молекулярно-генетические исследования", link: "/molecular_genetic_study"},
 ]
